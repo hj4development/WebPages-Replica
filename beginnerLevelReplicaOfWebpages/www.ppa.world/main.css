@@ -1,0 +1,170 @@
+body{
+    margin:0px;
+    background-color:#001732;
+    
+}
+#main{
+    background-color:#FFFFFF;
+    margin:0px 120px;
+}
+.clearfix:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+#header .logo{
+   float:left;
+   width:15%;
+   margin-left:120px;
+}
+#header .logo img{
+    width:100%;
+}
+#nav1{
+    float:right;
+    margin-right:120px;
+    margin-top:60px;
+    width:65%;
+}
+#nav1 ul{
+    margin:0px;
+    padding:0px;
+    list-style:none; 
+}
+#nav1 ul li{
+    float:left;
+    width:15%;
+    text-align:center;
+    padding-top:15px;
+    height:30px;
+    border-left:2px solid #45488C;
+}
+#nav1 ul li:last-child{
+    border-right:2px solid #45488C;
+}
+#nav1 ul li:hover{
+    background-color:#0F3C7D;
+}
+#nav1 ul li a{
+    color:#5E9AD3;
+    text-decoration:none;
+    font-size:10px;
+    font-family:NotaBene, Arial, Helvetica, sans-serif;
+}
+#nav{
+    float:right;
+    margin-right:120px;
+    width:35%;
+    height:40px;
+    background-color:#0F3C7D;
+}
+#nav ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+#nav ul li{
+    float:left;
+    width:10%;
+    margin-left:30px;
+    margin-top:10px;
+}
+#nav ul li:last-child{
+    margin-left:100px;
+}
+#nav ul li a{
+    color:#5E9AD3;
+    text-decoration:none;
+    font-family:NotaBene, Arial, Helvetica, sans-serif;
+}
+#banner div{
+   height:350px;
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+#banner .div_1{
+background-image: url("PPA_header-1-1440x422.jpg");
+}
+#content{
+    margin-top:80px;
+}
+#content .col_1{
+    float:left;
+    width:20%;
+ margin-top:150px;
+}
+#content .col_2 h2{
+    color:#11438C;
+    font-family:NotaBene, Arial, Helvetica, sans-serif;
+}
+#content .col_2 p{
+    float:left;
+    width:48%;
+    color:#45488C;
+    font-family:NotaBene, Arial, Helvetica, sans-serif;
+}
+#content .col_3{
+    float:right;
+    width:20%;
+    margin-top:-130px;
+    margin-right:50px;
+}
+#content .col_3 ul{
+    list-style:none;
+    }
+#content .col_3 ul li{
+    border-top:2px solid #45488C;
+    padding:10px 0px;
+}
+#content .col_3 ul li:last-child{
+    border-bottom:2px solid #45488C;
+}
+#content .col_3 ul li a{
+    text-decoration:none;
+    color:#69A1D7;
+    font-family:NotaBene, Arial, Helvetica, sans-serif;
+}
+
+#footer .fonticon{
+    margin-left:500px;
+}
+#footer .fonticon ul li{
+    list-style:none;
+    font-size:20px;
+    height:30px;
+    width:30px;
+    margin:10px;
+    padding-top:5px;
+    text-align:center;
+    background-color:#114289;
+    float:left;
+}
+#footer .fonticon ul li a{
+    color:#5E9AD3;
+}
+#footer .fonticon ul li a:hover{
+    color:white;
+}
+.finalfooter{
+    margin-left:130px;
+}
+.finalfooter .first, .second, .third, .fourth, .fifth, .sixth{
+    float:left;
+    width:15%;
+    border-left:1px solid #0F3C7D;
+}
+.pre{
+    margin-left:-120px;
+    color:#4B8CB3;
+}
+.finalfooter ul li{
+    list-style:none;
+}
+.finalfooter ul li a{
+    color:#4B8CB3;
+    text-decoration:none;
+}
+.finalfooter h5{
+    margin-left:35px;
+    color:white;
+}
